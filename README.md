@@ -119,7 +119,6 @@ Upon successful completion of this course, students will be able to:
 - Midterm: 20%
 - Final Exam: 20%
 
-\*New Option: Instead of the final exam, you may choose to do a project. Only 3 students per semester may opt for this, provided they have satisfactory grades in labs. Discuss with the instructor before week 11 to choose this option.
 
 ## Usage
 
