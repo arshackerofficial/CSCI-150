@@ -1,141 +1,118 @@
 # CSCI 150: Introduction to Digital and Computer System Design
 
-Welcome to the CSCI 150 repository! This repository serves as a recordkeeping space for all the code, lab exercises, and assignments completed during the Computer Science class.
+Welcome to the CSCI 150 repository. This repo is a record of code, labs, slides, and assignments completed during the course.
+
+---
 
 ## Repository Structure
 
-The repository is organized into the following directories:
+```
 
-- **`labs/`**: Contains code for various lab exercises.
-- **`books/`**: Contains books for this course.
-- **`classwork/`**: Contains programs created in class.
-- **`exams/`**: Contains code for various exams.
-- **`slides/`**: Contains lecture slides.
-- **`software/`**: Contains lecture related software.
-- **`assignments/`**: Holds code related to assignments given throughout the course.
+labs/         # Lab exercises
+books/        # Course books and references (make sure you have the rights to store/use these)
+classwork/    # In-class programs and examples
+exams/        # Exam-related code or practice
+slides/       # Lecture slides
+software/     # Course-related tools/installers
+assignments/  # Programming/homework assignments
 
-Feel free to navigate through the folders to find specific code snippets or assignments.
+```
+
+---
 
 ## Course Information
 
-**Course Outline:**
+- **Term:** Summer 2024 (S2)  
+- **Course No:** CSCI 150  
+- **Credits:** 3  
+- **Section:** 16  
+- **Total Weeks:** 14  
+- **Format:** In-person  
+- **Classroom:** RM-420  
+- **Meeting Hours:** Monday/Thursday, 6:00 pm–8:25 pm  
+- **Instructor:** TBD  
+- **Instructor Office:** Room 544  
+- **Office Hours:** Wed 2:00–4:00 pm (by appointment), plus online/other by appointment  
+- **Midterm:** Week 8 (Thursday)  
+- **Final:** TBA
 
-- Term: Summer 2024 (S2)
-- Course No: CSCI 150
-- Course Credits: 3
-- Instructor: TBD
-- Course Section No: 16
-- Total Weeks: 14
-- Classroom: RM-420
-- Meeting Hours: Monday/Thursday: 6:00 pm – 8:25 pm
-- Instructor Office: Room 544
-- Office Hours: Wednesday 2:00 pm – 4:00 pm (appointment required), Online and other times by appointment
-- Course Format: In-Person
-- Midterm: Week 8, Thursday
-- Final: TBA
+### Description
+This course introduces the basics of digital logic design and the use of small and medium-scale integration (SSI/MSI) components. You’ll connect design principles to how hardware supports a microprocessor, and you’ll be introduced to machine language and assembly. An interactive logic simulation environment is used for design/testing.
 
-**Course Description:**
+### Learning Outcomes
+By the end, you should be able to:
+- Understand core digital logic concepts.
+- Use SSI/MSI digital components.
+- Explain how hardware provides microprocessor functionality.
+- Grasp machine language programming concepts.
+- Use assembly to illustrate machine language.
+- Design and test logic circuits with a simulator.
 
-This course introduces students to the basic concepts of digital logic design and the function and use of typical digital components belonging primarily to the small and medium-scale integration (SSI, MSI) families. The design principles will be used to develop an understanding of how the functional capabilities can be provided by hardware for the operation of a microprocessor. Additionally, this course will introduce the student to machine language, its relationship to the design of a computer, and its symbolic representation as assembly language. The assembly language of a particular CPU will be used to illustrate machine language programming concepts. An interactive logic simulation environment for designing and testing logic circuit design will be used for the assignments.
+---
 
-**Course Learning Outcomes:**
+## Course Schedule (Subject to change)
 
-Upon successful completion of this course, students will be able to:
+| Week | Topics | Deliverables / Notes |
+|---|---|---|
+| 1 | Course intro; Digital info representations (LS0–LS3) |  |
+| 2 | Combinational logic (LS4–LS5); LogicWorks link on LMS | **Assignment 1 due:** 19 May 2024 |
+| 3 | Combinational logic (LS6–LS7) | **Quiz 1** |
+| 4 | Combinational logic (LS8) | **Assignment 2 due:** 02 Jun 2024; **Lab 1 due:** 02 Jun 2024 |
+| 5 | Combinational logic design (LS9–LS10) | **Quiz 2** |
+| 6 | Combinational logic design (LS11–LS12) | **Assignment 3 due:** 16 Jun 2024; **Lab 2 due:** 16 Jun 2024 |
+| 7 | Combinational logic design (LS13–LS16) | **Quiz 3** |
+| 8 | Review (LS17–LS18) | **Midterm** (Mock1, Mock2) |
+| 9 | Sequential circuits (LS19–LS20) |  |
+| 10 | Sequential circuits (LS21–LS22) |  |
+| 11 | Sequential circuits (LS23–LS24) | **Lab 3 due:** 21 Jul 2024; **Assignment 4 due:** 21 Jul 2024 |
+| 12 | Registers (LS26–LS28) | **Quiz 4** |
+| 13 | Registers (LS29–LS30); Review (LS31) | **Lab 4 due:** 04 Aug 2024 |
+| 14 | Final Exam (Mock) |  |
 
-- Understand the basic concepts of digital logic design.
-- Use digital components belonging to SSI and MSI families.
-- Understand the functional capabilities provided by hardware for microprocessor operation.
-- Develop machine language programming concepts.
-- Use assembly language to illustrate machine language programming.
-- Design and test logic circuits using an interactive logic simulation environment.
+> Note: Dates/topics may shift. Follow instructor announcements for the latest updates.
 
-## Course Content/Schedule:
+---
 
-**Week 1:**
-- Introduction to the Course
-- Introduction to Digital Information Representations (LS0, LS1, LS2, LS3)
+## Evaluation
 
-**Week 2:**
-- Combinational Logic Circuits (LS4, LS5)
-- Link to LogicWorks on Moodle
-- **Assignment 1 due:** 19 May 2024
+| Component   | Weight |
+|---|---:|
+| Assignments | 10% |
+| Labs        | 40% |
+| Quizzes     | 10% |
+| Midterm     | 20% |
+| Final Exam  | 20% |
 
-**Week 3:**
-- Combinational Logic Circuits (LS6, LS7)
-- **Quiz 1**
+---
 
-**Week 4:**
-- Combinational Logic Circuits (LS8)
-- **Assignment 2 due:** 02 June 2024
-- **Lab 1 due:** 02 June 2024
+## Tools & Software
 
-**Week 5:**
-- Combinational Logic Design (LS9, LS10)
-- **Quiz 2**
+- Interactive logic simulator (e.g., LogicWorks via LMS link)
+- Any additional software posted under `software/`
+- Assembly/machine language tooling as specified in class
 
-**Week 6:**
-- Combinational Logic Design (LS11, LS12)
-- **Assignment 3 due:** 16 June 2024
-- **Lab 2 due:** 16 June 2024
-
-**Week 7:**
-- Combinational Logic Design (LS13, LS14, LS15, LS16)
-- **Quiz 3**
-
-**Week 8:**
-- Review for Midterm (LS17, LS18)
-- **Midterm (Mock1, Mock2)**
-
-**Week 9:**
-- Sequential Circuits (LS19, LS20)
-
-**Week 10:**
-- Sequential Circuits (LS21, LS22)
-
-**Week 11:**
-- Sequential Circuits (LS23, LS24)
-- **Lab 3 due:** 21 July 2024
-- **Assignment 4 due:** 21 July 2024
-
-**Week 12:**
-- Registers (LS26, LS27, LS28)
-- **Quiz 4**
-
-**Week 13:**
-- Registers (LS29, LS30)
-- Review (LS31)
-- **Lab 4 due:** 04 Aug 2024
-
-**Week 14:**
-- **Final Exam (Mock)**
-
-\*Note: This is a detailed class schedule but it is still subject to change. Refer to the instructor's announcements for the most accurate and up-to-date schedule.
-
-## Evaluation Criteria:
-
-- Assignments: 10%
-- Labs: 40%
-- Quizzes: 10%
-- Midterm: 20%
-- Final Exam: 20%
-
+---
 
 ## Usage
 
-This repository is primarily for recordkeeping and personal reference. Review the code and materials covered during the CSCI 150 class. If you find any errors or have improvements to suggest, feel free to open an issue or submit a pull request.
+This repository is for recordkeeping and personal reference. Browse folders for specific examples, labs, and assignment solutions.
+
+---
 
 ## Contributing
 
-Contributions are not actively sought for this repository, but if you believe there's something crucial to add or correct, please follow these steps:
+Contributions aren’t expected, but if you spot an issue or improvement:
 
-1. Fork the repository.
-2. Create a new branch for your changes.
-3. Make your modifications.
-4. Test thoroughly.
-5. Submit a pull request, explaining the changes you've made.
+1. Fork the repo  
+2. Create a feature branch  
+3. Make and test changes  
+4. Open a pull request with a clear description
+
+---
 
 ## License
 
-This repository is licensed under the MIT License, meaning you are free to use the code as you see fit for personal and educational purposes.
+MIT License. You’re free to use the code for personal and educational purposes.
 
-Happy coding!
+Happy coding.
+```
