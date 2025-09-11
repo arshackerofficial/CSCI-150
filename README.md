@@ -10,9 +10,6 @@ Welcome to the CSCI 150 repository. This repo is a record of code, labs, slides,
 
 labs/         # Lab exercises
 books/        # Course books and references (make sure you have the rights to store/use these)
-classwork/    # In-class programs and examples
-exams/        # Exam-related code or practice
-slides/       # Lecture slides
 software/     # Course-related tools/installers
 assignments/  # Programming/homework assignments
 
